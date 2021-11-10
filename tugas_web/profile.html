@@ -6,90 +6,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        div.footer {
-            width: 420px;
-            float: left;
-            margin-left: 50px;
-            border: 1px solid;
-        }
-
-        div.top {
-            float: left;
-        }
-
-        div.top#foto {
-            width: 200px;
-            height: 200px;
-            border: 1px solid;
-            background-color: black;
-        }
-
-        div.top#profile {
-            width: 600px;
-        }
-
-        div.top#nav {
-            width: 200px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/profile.css">
 </head>
 
 <body>
-    <fieldset>
-        <div class="top" id="foto" style="width: 25%;">
-            <section>
-
-            </section>
-        </div>
-        <div class="top" id="profile" style="width: 40%;">
-            <article>
+    <fieldset id="fieldset">
+        <header id="pala">
+            <div id="img">
+                <img src="foto/foto.jpg" alt="">
+            </div>
+            <div id="profile">
                 <h1>Profile Name</h1>
-                <p>245 Blackfriars Road</p>
-                <p>Ludgate House</p>
-                <p>London, SEI 9UY</p>
-                <p>Email: <u style="color: blue;">mraihanz322@gmail.com</u></p>
-                <p>Telephone: 0887-2601-898</p>
-            </article>
-        </div>
-        <div class="top" id="nav" style="width: 35%;">
-            <aside>
-                <u>Categories</u><br />
-                Lorem Ipsum<br />
-                dolor sit<br />
-                amet<br />
-                dolor sit
-            </aside>
-        </div>
-        <div>
-            <article>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Dolorem consequuntur dolore impedit architecto ipsum vel nobis quis qui facilis.
-                Amet a delectus consectetur temporibus earum, beatae repellendus distinctio vel provident!<br /><br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Ipsum aspernatur nemo et magni repellendus rerum maiores non omnis optio debitis perspiciatis
-                illum ut error a, ad quisquam repudiandae, itaque dicta.
-            </article>
-        </div>
-        <footer>
-            <div class="footer">
-                <video style="width: 417px; height: 240px;" controls>
-                    <source src=" 7_orange.mp4" type="video/mp4">
-                </video>
+                <h4>245 Blackfriars Road</h4>
+                <h4>Ludgate House</h4>
+                <h4>London, SEI 9UY</h4>
+                <h4>Email: <u>firstname@surname.com</u></h4>
+                <h4>Telephone: 0207 955 3705</h4>
             </div>
-            <div class="footer">
-                <img src="pict/php.jpg" style="width: 190px;"><img src="pict/php.jpg" style="width: 190px;"><br />
-                <img src="pict/php.jpg" style="width: 190px;"><img src="pict/php.jpg" style="width: 190px;">
+            <div id="category">
+                <h4 id="nav"><u id="cat">Categories</u></h4>
+                <h4 id="nav">Lorem ipsum</h4>
+                <h4 id="nav">dolor sit</h4>
+                <h4 id="nav">amet</h4>
+                <h4 id="nav">dolor sit</h4>
             </div>
-            <div class="footer">
-                <img src="pict/pdf.png" style="width: 45px;"><a href=""><u style="color: blue;">Lorem Ipsum
-                        dolor sit amet.</u></a><br />
-                <img src="pict/pdf.png" style="width: 45px;"><a href=""><u style="color: blue;">Lorem Ipsum
-                        dolor sit amet.</u></a><br />
-                <img src="pict/pdf.png" style="width: 45px;"><a href=""><u style="color: blue;">Lorem Ipsum
-                        dolor sit amet.</u></a><br />
-                <img src="pict/pdf.png" style="width: 45px;"><a href=""><u style="color: blue;">Lorem Ipsum
-                        dolor sit amet.</u></a>
+        </header>
+        <section id="section">
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, laudantium voluptates? Eos
+                    temporibus
+                    maiores ex doloribus eius reprehenderit minima quia. Quod, similique doloremque? Et laudantium ullam
+                    molestiae libero dolorem impedit!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus numquam modi molestias dolor,
+                    quia id nam vitae natus illum sequi autem at architecto sunt neque harum velit pariatur ab cum.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos tempore non similique sapiente, rem
+                    voluptatibus minima facilis quae iusto iure nam, dolores officiis esse, consequatur accusantium
+                    laborum reprehenderit nesciunt! Laudantium.
+                </p>
+            </div>
+        </section>
+        <footer id="footer">
+            <div id="video">
+                <video src="video/7_orange.mp4" controls></video>
+            </div>
+            <div id="fimg">
+                <img src="foto/foto.jpg" alt="">
+                <img src="foto/foto.jpg" alt=""><br>
+                <img src="foto/foto.jpg" alt="">
+                <img src="foto/foto.jpg" alt="">
+            </div>
+            <div id="attachment">
+                <ol>
+                    <li>
+                        <audio src="music/ds.mp3" type="audio/mpeg" controls></audio>
+                    </li>
+                    <li class="pdf">
+                        <a href="pdf/perkenalan.pdf" download="perkenalan.pdf">
+                            <img src="foto/pdf.png" alt="icon pdf">
+                            <u>PDF Perkenalan Web</u>
+                        </a>
+                    </li>
+                    <li class="pdf">
+                        <a href="pdf/htmldasar.pdf" download="htmldasar.pdf">
+                            <img src="foto/pdf.png" alt="icon pdf">
+                            <u>HTML Dasar</u>
+                        </a>
+                    </li>
+                    <li class="pdf">
+                        <a href="pdf/form.pdf" download="form.pdf">
+                            <img src="foto/pdf.png" alt="icon pdf">
+                            <u>HTML Form</u>
+                        </a>
+                    </li>
+                    <li class="pdf">
+                        <a href="pdf/praktikum.pdf" download="praktikum.pdf">
+                            <img src="foto/pdf.png" alt="icon pdf">
+                            <u>Praktikum Web</u>
+                        </a>
+                    </li>
+                </ol>
             </div>
         </footer>
     </fieldset>
